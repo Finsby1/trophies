@@ -32,8 +32,9 @@ public class Trophy
         {
             if (value < 1970 || value > DateTime.Now.Year)
             {
-                throw new ArgumentException($"Year must be between 1970 and {DateTime.Now.Year}.");
+                throw new ArgumentOutOfRangeException($"Year must be between 1970 and {DateTime.Now.Year}.");
             }
+            _year = value;
         }
     }
 
@@ -44,9 +45,11 @@ public class Trophy
         Year = year;
     }
 
-    public Trophy()
+    public Trophy(Trophy trophy)
     {
-        
+        Id = trophy.Id;
+        Competition = trophy.Competition;
+        Year = trophy.Year;
     }
 
 

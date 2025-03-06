@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trophies", "Trophies\Trophi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrophyTest", "TrophyTest\TrophyTest.csproj", "{0F591595-F4E3-4526-BEBB-4184088899D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrophiesRepositoryTest", "TrophiesRepositoryTest\TrophiesRepositoryTest.csproj", "{8B0F1DE9-1CEC-420B-B432-38E7BDF79611}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{0F591595-F4E3-4526-BEBB-4184088899D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F591595-F4E3-4526-BEBB-4184088899D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F591595-F4E3-4526-BEBB-4184088899D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B0F1DE9-1CEC-420B-B432-38E7BDF79611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B0F1DE9-1CEC-420B-B432-38E7BDF79611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B0F1DE9-1CEC-420B-B432-38E7BDF79611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B0F1DE9-1CEC-420B-B432-38E7BDF79611}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
