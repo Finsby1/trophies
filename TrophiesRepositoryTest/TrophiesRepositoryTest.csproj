@@ -20,4 +20,8 @@
         <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Trophies\Trophies.csproj" />
+    </ItemGroup>
+
 </Project>

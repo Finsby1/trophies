@@ -52,6 +52,11 @@ public class Trophy
         Year = trophy.Year;
     }
 
+    public Trophy()
+    {
+        
+    }
+
 
     public override string ToString()
     {

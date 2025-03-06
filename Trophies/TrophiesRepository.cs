@@ -9,7 +9,7 @@ public class TrophiesRepository
     {
         _trophies = new List<Trophy>
         {
-            new Trophy(1, "Competition A", 2021),
+            new Trophy(1, "Competition A", 2001),
             new Trophy(2, "Competition B", 2002),
             new Trophy(3, "Competition C", 2003),
             new Trophy(4, "Competition D", 2004),
@@ -17,9 +17,9 @@ public class TrophiesRepository
         };
     }
 
-    public List<Trophy> GetTrophies(int? year = null, string sortBy = null)
+    public IEnumerable<Trophy> GetTrophies(int? year = null, string sortBy = null)
     {
-        List<Trophy> trophiesCopy = _trophies.Select(t => new Trophy(t)).ToList();
+        IEnumerable<Trophy> trophiesCopy = _trophies.Select(t => new Trophy(t)).ToList();
 
         if (year.HasValue)
         {
